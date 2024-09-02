@@ -1,0 +1,99 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Autores - Mi Librería Online</title>  
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">  
+    <link rel="stylesheet" href="./styles/styles.css">  
+</head>  
+<body>  
+    <header>  
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">  
+            <a class="navbar-brand" href="index.html"><img src="./img/Captura.JPG" alt="" class="logo"> Mi Librería</a>  
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">  
+                <span class="navbar-toggler-icon"></span>  
+            </button>  
+            <div class="collapse navbar-collapse" id="navbarNav">  
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>    
+                    <li class="nav-item"><a class="nav-link" href="Catalogo.html">Catálogo</a></li>  
+                    <li class="nav-item active"><a class="nav-link" href="Autores.html">Autores</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="Premios.html">Premios</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="Contacto.html">Contacto</a></li>  
+                </ul>  
+            </div>  
+        </nav>  
+    </header>  
+    <main class="container my-5">  
+        <h2 class="text-center mb-4">Autores destacados del mes</h2>  
+        <div class="container-cards">
+            <div class="card mb-4">  
+                <div class="card-header" >  
+                    <h5 class="mb-0">  
+                        <img src="./img/Stephen-King-leerlo-todo-15-libros.jpg" alt="Stephen King" class="rounded-circle mr-3">  
+                        Stephen King  
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#booksAccordion1" aria-expanded="true" aria-controls="booksAccordion1">  
+                            <span>Ver Libros</span>  
+                        </button>  
+                    </h5>  
+                </div>   
+                <div class="card-body">  
+                    <p>Stephen King es un autor estadounidense conocido principalmente por sus novelas de terror y suspense. Ha vendido más de 350 millones de copias y ha influido considerablemente en el género moderno del terror.</p>  
+                </div>  
+                <div id="booksAccordion1" class="collapse" aria-labelledby="author1Heading" data-parent=".card">  
+                    <div class="card-body">  
+                        <h5>Libros de Stephen King</h5>  
+                        <ul class="list-group">  
+                            <a href="#"><li class="list-group-item">Carrie</li> </a> 
+                            <a href="#"><li class="list-group-item">El resplandor</li></a>  
+                            <a href="#"><li class="list-group-item">It</li></a>  
+                            <a href="#"><li class="list-group-item">Misery</li></a>  
+                            <a href="#"><li class="list-group-item">La torre oscura</li></a>   
+                        </ul>  
+                    </div>  
+             </div>
+             <div class="card mb-4">  
+                <div class="card-header" id="author1Heading">  
+                    <h5 class="mb-0">  
+                        <img src="./img/lovecraft 1.jpg" alt="Stephen King" class="rounded-circle mr-3">  
+                        LoveCraft
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#booksAccordion2" aria-expanded="true" aria-controls="booksAccordion1">  
+                            <span>Ver Libros</span>  
+                        </button>  
+                    </h5>  
+                </div>   
+                <div class="card-body">  
+                    <p>Howard Phillips Lovecraft, más conocido como H. P. Lovecraft, fue un escritor estadounidense, autor de relatos y novelas de terror y ciencia ficción. </p>  
+                </div>  
+                <div id="booksAccordion2" class="collapse" aria-labelledby="author1Heading" data-parent=".card">  
+                    <div class="card-body">  
+                        <h5>Libros de Lovecraft</h5>  
+                        <ul class="list-group">  
+                            <a href="#"><li class="list-group-item">La llamada de cthulhu</li> </a> 
+                            <a href="#"><li class="list-group-item">El que susurra en la oscuridad</li></a>  
+                            <a href="#"><li class="list-group-item">En la montaña de la locura</li></a>  
+                            <a href="#"><li class="list-group-item">El caso de charles dexter ward</li></a>   
+                            <a href="#"><li class="list-group-item">La sombre de Innsmouth</li></a>  
+                        </ul>  
+                    </div>  
+                </div>  
+            </div>
+        </div>
+    </main>  
+    <footer class="bg-light py-4">  
+        <div class="container text-center">  
+            <p>&copy; 2023 Mi Librería Online. Todos los derechos reservados.</p>  
+            <div>  
+                <a href="#" class="mx-2">Facebook</a>  
+                <a href="#" class="mx-2">Twitter</a>  
+                <a href="#" class="mx-2">Instagram</a>  
+            </div>  
+        </div>  
+    </footer>  
+    <!-- Enlaces a JavaScript de Bootstrap -->  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"></script>  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</body>  
+</html>

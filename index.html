@@ -1,0 +1,110 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Mi Librería Online</title>  
+    <!-- Enlace a Bootstrap CSS -->  
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">  
+    <link rel="stylesheet" href="./styles/styles.css">  
+</head>  
+<body>  
+    <header>  
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">  
+            <a class="navbar-brand" href="index.html"><img src="./img/Captura.JPG" alt="logo" class="logo"> Mi Librería</a>  
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">  
+                <span class="navbar-toggler-icon"></span>  
+            </button>  
+            <div class="collapse navbar-collapse" id="navbarNav">  
+                <ul class="navbar-nav ml-auto">  
+                    <li class="nav-item"><a class="nav-link" href="Catalogo.html">Catálogo</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="Autores.html">Autores</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="Premios.html">Premios</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="Contacto.html">Contacto</a></li>  
+                </ul>  
+            </div>  
+        </nav>  
+    </header>  
+    <main>  
+        <!-- Carrusel de Bootstrap -->  
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">  
+            <ol class="carousel-indicators">  
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>  
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>  
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>  
+            </ol>  
+            <div class="carousel-inner">  
+                <div class="carousel-item active">  
+                    <img class="d-block w-100" src="img/30-asombrosas-portadas-de-libros-28.webp" alt="Libro Sisters">  
+                    <div class="carousel-caption d-none d-md-block">  
+                        <h5>Sisters</h5>  
+                        <p>Charlie y Eli Sisters viven en Oregon City y trabajan para el Comodoro, un magnate y quizá aspirante a político que mueve muchos hilos en las sombras y tiene múltiples y variados negocios. Los hermanos, todo hay que decirlo, son sus matones y a veces sus verdugos.</p>  
+                    </div>  
+                </div>  
+                <div class="carousel-item">  
+                    <img class="d-block w-100" src="img/habitos-atomicos-3.jpg" alt="Libro Habitos Atomicos">  
+                    <div class="carousel-caption d-none d-md-block">  
+                        <h5>Habitos Atomicos</h5>  
+                        <p>En el corazón de la transformación personal y el éxito duradero yace un principio aparentemente simple: los hábitos. En su revelador libro Hábitos Atómicos, James Clear nos sumerge en un viaje profundo hacia la ciencia de la formación de hábitos</p>  
+                    </div>  
+                </div>  
+                <div class="carousel-item">  
+                    <img class="d-block w-100" src="img/libro-los-secretos-de-la-mente-millonaria.jpg" alt="Libro mente millonaria">  
+                    <div class="carousel-caption d-none d-md-block">  
+                        <h5>Mente Millonaria</h5>  
+                        <p>El libro de Los Secretos de la Mente Millonaria es un libro best-seller escrito en 2005 por T. Harv Eker. En él, el autor se enfoca en explicarnos cómo es que los patrones mentales impactan nuestra capacidad para acumular riqueza, y nos muestra las formas de pensar de la gente rica y próspera para que podamos replicarlas.</p>  
+                    </div>  
+                </div>  
+            </div>  
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">  
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>  
+                <span class="sr-only">Anterior</span>  
+            </a>  
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">  
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>  
+                <span class="sr-only">Siguiente</span>  
+            </a>  
+        </div>  
+
+        <!-- Sección de Novedades -->  
+        <section class="novedades my-4">  
+            <div class="container">  
+                <h2 class="text-center">Novedades del Mes</h2>  
+                <div class="row .justify-content-between">  
+                    <article class="col-md-4">  
+                        <img src="img/Cuando reescribamos la historia.jpg" alt="Novedad 1" class="img-fluid">  
+                        <h3>Libro Nuevo de Belen Martinez</h3>  
+                        <p>Una historia muy intensa sobre la amistad, el amor y los miedos; y cómo una segunda oportunidad, que traspasa el tiempo, puede cambiarlo todo. Belén te arrastrará a un mundo lleno de secretos con una pluma fresca, que atrapa con un toque mágico.</p>  
+                    </article>  
+                    <article class="col-md-4">  
+                        <img src="./img/ins-668x1024.png" alt="Novedad 2" class="img-fluid">  
+                        <h3>Libro Nuevo de Sthepen King</h3>  
+                        <p>El Instituto es una novela escrita por el reconocido autor Stephen King. El libro combina elementos de suspense y terror, creando una historia cautivante y llena de intriga. </p>  
+                    </article>  
+                    <article class="col-md-4">  
+                        <img src="./img/1984_1.jpg" alt="Novedad 3" class="img-fluid">  
+                        <h3>Libro Nuevo de George Orwell</h3>  
+                        <p>La novela se desarrolla en el año 1984 y siguientes en un futuro Londres, parte de una región llamada Franja Aérea 1, «... que alguna vez fue llamada Inglaterra o Britania»2​ integrada, a su vez, en un inmenso estado colectivista: Oceanía.</p>  
+                    </article>  
+                </div>  
+            </div>  
+        </section>  
+    </main>  
+
+    <!-- Footer -->  
+    <footer class="bg-light py-4">  
+        <div class="container text-center">  
+            <p>&copy; 2023 Mi Librería Online. Todos los derechos reservados.</p>  
+            <div>  
+                <a href="#" class="mx-2">Facebook</a> |  
+                <a href="#" class="mx-2">Twitter</a> |  
+                <a href="#" class="mx-2">Instagram</a>  
+            </div>  
+        </div>  
+    </footer>  
+    <!-- Enlaces a JavaScript de Bootstrap -->  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"></script>  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+</body>  
+</html>
