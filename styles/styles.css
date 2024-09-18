@@ -154,8 +154,8 @@ article h3 {
 }
 
 .card img:hover {
-  transform: scale(1.05); /* Aumentar el tamaño en un 5% */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumentar sombra en hover */
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .premio-section {
